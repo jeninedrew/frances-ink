@@ -1,0 +1,64 @@
+footer {
+	background: #000;
+	padding: 4em 0;
+}
+.contact-info {
+	text-align: center;
+  margin-bottom: 3.5em;
+}
+.contact-info h3 {
+	font-family: $condensed;
+}
+.contact-info a {
+	color: $yellow;
+	font-size: 1.2rem;
+}
+.contact-info a:hover, 
+.contact-info a:focus, 
+.contact-info a:focus {
+	color: #fff;
+	transition: $transition;
+} 
+.about-blurb {
+	color: #fff;
+	margin: 0 auto;
+	text-align: center;
+	width: 100%;
+	padding-right: 1em;
+  padding-left: 1em;
+}
+/*------------------------------------------
+XSMALL BREAKING POINT  (300px)
+------------------------------------------ */
+@media (min-width: $bp-xsmall) {
+	.contact-info a {
+		font-size: 2.5rem;
+	}
+	.my-links li {
+		width: inherit;
+	}
+	.bottom-name {
+		text-align: left;
+	}
+}
+/*------------------------------------------
+SMALL BREAKING POINT (550px)
+------------------------------------------ */
+@media (min-width: $bp-small) {
+	.contact-info a {
+		font-size: 3.1rem;
+	}
+	.about-blurb {
+		width: 26em;
+		padding-right: 1.5em;
+  	padding-left: 1.5em;
+	}
+}
+/*------------------------------------------
+MEDIUM BREAKING POINT (800px)
+------------------------------------------ */
+@media (min-width: $bp-medium) {
+	.contact-info a {
+		font-size: 3.8rem;
+	}
+}

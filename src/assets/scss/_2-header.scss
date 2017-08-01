@@ -1,0 +1,227 @@
+header {
+	padding-top: 0;
+	background: #000;
+}
+.logo {
+	display: none;
+}
+.co-name {
+  color: #fff;
+ 	letter-spacing: .15em;
+  font-weigth: 100;
+  text-align: center;
+ 	padding-top: 1em;
+ 	padding-bottom: .4em;
+  font-size: 1.2rem;
+}
+.main-menu {
+	margin: 0 0 0 0;
+  padding: 0 0 1em 0;
+	li {
+		margin: .8em 0;
+		text-align: center;
+		list-style-type: none;
+		display: block;
+		padding: 0 15%;
+	}
+	a {
+		color: #fff;
+		font-size: 1.1rem;
+		font-weight: 500;
+		text-transform: uppercase;
+		border-bottom: none;
+	}
+	a:hover, a:focus, a:active, a.active {
+		color: $yellow;
+		transition: $transition;
+	}
+}
+.title-bar {
+	background: #000;
+  color: #fff;
+	padding: 0 0 1.2rem 0;
+	text-align: center;
+}
+.title-bar nav {
+	background: #000;
+	padding: 2rem;
+}
+.menu-icon {
+  width: 20px;
+  height: 16px;
+}
+.top-bar {
+  padding: 0;
+}
+.top-bar, .top-bar ul {
+  background-color: #000;
+}
+.is-dropdown-submenu {
+  background: #fff!important;
+  min-width: 100%;
+  border-top: .1em #000 solid;
+ 	border-right: 1em #000 solid;
+ 	border-bottom: 1em #000 solid;
+ 	border-left: 1em #000 solid;
+ 	transition: $transition;
+}
+.dropdown.menu > li.opens-left > .is-dropdown-submenu {
+	right: auto;
+}
+.dropdown.menu > li.is-dropdown-submenu-parent > a {
+    position: relative;
+    padding-right: 1.5rem;
+}
+.dropdown.menu > li.is-dropdown-submenu-parent > a::after {
+  border-color: #fff transparent transparent;
+}
+.main-menu .vertical {
+	margin: 1em 0 0 0;
+	padding: 1em 0;
+	li {
+		margin: 0 0;
+		padding: .4em 0;
+	}
+	a {
+		color: black;
+	}
+}
+.main-menu  .vertical li:hover a, 
+.main-menu  .vertical li:focus a, 
+.main-menu  .vertical li:active a, 
+.main-menu  .vertical li.active a {
+ 	color: gray;  
+}
+
+/* Advoids responsive menu flash of unstyed content */
+.no-js {
+  @include breakpoint(small only) {
+    .top-bar {
+      display: none;
+    }
+  }
+
+  @include breakpoint(medium) {
+    .title-bar {
+      display: none;
+    }
+  }
+}
+/*------------------------------------------
+XSMALL BREAKING POINT  (300px)
+------------------------------------------ */
+@media (min-width: $bp-xsmall) {
+		.main-menu  li {
+		padding: 0 30%;
+	}
+	.is-dropdown-submenu {
+	 	border-right: 2em #000 solid;
+	 	border-bottom: 2em #000 solid;
+	 	border-left: 2em #000 solid;
+	}
+}
+/*------------------------------------------
+SMALLMEDIUM BREAKING POINT (640px)
+------------------------------------------ */
+@media (min-width: $bp-smallmedium) {
+	.co-name {
+	  transform: rotate(-90deg);
+	  color: #fff;
+	  background: #000;
+	  float: left;
+	  padding-top: 0;
+	  padding-right: 6.1em;
+	  padding-bottom: .05em;
+	  margin-left: -5.1em;
+	  font-size: 1.3rem;
+	  text-align: left;
+	}
+	.logo {
+		text-align: center;
+		display: inline;
+	}
+	.logo img {
+		text-align: left;
+		display: inline;
+	  width: 10em;
+		margin-left: -6.6em;
+	  background: #fff;
+	  margin-top: 0;
+	  width: 10em;
+	}
+	.main-menu {
+		float: right;
+		margin: .8em 1em 0 0;
+		padding: 0 0 0 0;
+		li {
+			margin: 0em .1em;
+			display: inline-block;
+			padding: 0 .25em;
+		}
+		li:first-of-type {
+			padding-right: 1.5em;
+		}
+		a {
+			font-size: 1rem;
+		}
+		span {
+			color: #fff;
+		}
+	}
+	.main-menu .vertical {
+		padding: .7em 0;
+		li {
+			padding: .1em 0;
+		}
+	}
+	.is-dropdown-submenu {
+		min-width: 12.5em;
+	  border-right: none;
+	 	border-bottom: none;
+	 	border-left: none;
+	}
+}
+/*------------------------------------------
+MEDIUM BREAKING POINT (800px)
+------------------------------------------ */
+@media (min-width: $bp-medium) {
+	.co-name {
+	  font-size: 2.4rem;
+	  padding-right: 5.9em;
+    padding-bottom: 0em;
+    margin-left: -5.5em;
+	}
+  .logo img {
+	  width: 18em;
+	  margin-left: -12.9em;
+	}
+	.main-menu {
+		margin: 1.2em 3em 0 0;
+		a {
+			font-size: 1rem;
+		}
+	}
+	.main-menu .vertical li {
+		padding: .3em 0;
+	}
+}
+/*------------------------------------------
+LARGE BREAKING POINT (1200px)
+------------------------------------------ */
+@media (min-width: $bp-large) {
+	.co-name {
+	  transform: rotate(-90deg);
+	  float: left;
+	  padding-right: 6.59em;
+	  margin-left: -5.8em;
+	  font-size: 2.4rem;
+	}
+  .logo img {
+	  width: 19.3em;
+	  margin-left: -13.7em;
+	}
+	.main-menu .vertical li {
+		padding: .5em 0;
+	}
+
+}

@@ -1,0 +1,214 @@
+article section {
+	margin-bottom: 1rem;
+}
+.number {
+	font-weight: 900;
+	text-align: center;
+	font-family: Helvetica, 'sans-serif';
+	font-size: 4rem;
+}
+.number--article-teaser {
+	margin-top: -.1em;
+	width: 100%;
+}
+.number--article-teaser span {
+	background: #fff;
+	padding: 0 .06em;
+}
+.number--article-full {
+	color: $gray;
+	font-weight: 100;
+}
+.article-intro {
+	margin-bottom: 2em;
+}
+.article-intro__list {
+	padding: 0 0 1.5em 0;
+	text-align: center;
+	li {
+		border-bottom: .05em solid $lightgray;
+		list-style-type: none;
+		padding: .4em .9em;
+	}
+	li:first-of-type {
+		border-top: .05em solid $lightgray;
+	}
+}
+.ul--article {
+	margin-left: 3em;
+	margin-bottom: 1em;
+}
+.read-more__link {
+	font-family: $condensed;
+	color: #000;
+	font-size: 1.1em;
+}
+.read-more__button {
+	background: $reggray;
+	color: #000;
+	padding: .6em 0;
+	font-weight: 600;
+}
+.read-more__link:hover,
+.read-more__link:focus,
+.read-more__link:active {
+	color: #000;
+}
+.read-more__button:hover,
+.read-more__button:focus,
+.read-more__button:active {
+	background: $yellow;
+	transition: $transition;
+}
+.read-more--article-teaser {
+	margin: .7em 0 .7em 0;
+}
+.read-more--article-teaser.last {
+	margin-bottom: 1.7em;
+}
+.read-more--article-full {
+	margin: 1em 0 1.7em 0;
+}
+
+/* Article Teaser
+------------------------------------------ */
+.call-out {
+	font-family: $condensed;
+	font-size: 1.2rem;
+	font-weight: 700;
+	letter-spacing: .04em;
+	margin-bottom: 1.5em;
+	text-align: center;
+	text-transform: uppercase;
+}
+.call-out span {
+	background: #000;
+	padding: 0 .4em;
+}
+a.call-out__link  {
+	color: #fff;
+}
+a.call-out__link span:hover, 
+a.call-out__link span:focus, 
+a.call-out__link span:active {
+	color: $yellow;
+	transition: $transition;
+}
+
+/* Article Full
+------------------------------------------ */
+
+.screenshots {
+	margin-bottom: 1.5rem;
+}
+.screenshots img {
+	border: .5em #c3c3c3 solid;
+	margin-bottom: 1.8em;
+}
+.words--double--article .screenshots img {
+	margin-top: 3em;
+}
+
+/* Frances Ink case study
+------------------------------------------ */
+
+.colors--frances-ink {
+	height: 3em;
+	border: .2em #fff solid;
+	margin-top: 1em;
+	margin-bottom: 1.8em;
+}
+.colors--frances-ink--1 {
+	background-color: #000;
+}
+.colors--frances-ink--2 {
+	background-color: $lightgray;
+}
+.colors--frances-ink--3 {
+	background-color: $gray;
+}
+.colors--frances-ink--4 {
+	background-color: $yellow;
+}
+
+/*------------------------------------------
+SMALL BREAKING POINT (550px)
+------------------------------------------ */
+@media (min-width: $bp-small) {
+	/* ARTICLE
+  ------------------- */ 
+	.number {
+		font-size: 6rem;
+	}
+	.article-intro__list {
+		padding: 0 2em 1.5em 2em;
+	}
+	.read-more--article-teaser {
+		margin: 1em 0 .7em 0;
+	}
+	.read-more__link {
+		font-size: 1.4em;
+	}
+		/* ARTICLE TEASER
+  ------------------- */ 
+	.call-out {
+		font-size: 1.5rem;
+		margin-bottom: 2em;
+	}
+}
+/*------------------------------------------
+MEDIUM BREAKING POINT (800px)
+------------------------------------------ */
+@media (min-width: $bp-medium) {
+	/* ARTICLE
+	------------------- */ 
+	.number {
+		font-size: 9rem;
+	}
+	.article-intro__list {
+		padding: 0 2em 2em 2em;
+	}
+	.read-more__link {
+		font-size: 1.5em;
+	}
+	/* ARTICLE TEASER
+	------------------- */ 
+	.call-out {
+		font-size: 1.8rem;
+		margin-bottom: 2.2em;
+	}
+}
+/*------------------------------------------
+LARGE BREAKING POINT (1024px)
+------------------------------------------ */
+@media (min-width: 1024px) {
+	.colors--frances-ink {
+		margin-top: 0;
+		margin-bottom: .2em;
+	}
+}
+/*------------------------------------------
+LARGE BREAKING POINT (1200px)
+------------------------------------------ */
+@media (min-width: $bp-large) {
+	/* ARTICLE
+  ------------------- */ 
+	.number {
+		font-size: 10rem;
+	}
+	.article-intro__list {
+		padding: 0 2em 3em 2em;
+	}
+	.read-more__link {
+		font-size: 1.7em;
+	}
+	.words--double--article .screenshots img {
+		margin-top: 0em;
+	}
+	/* ARTICLE TEASER
+  ------------------- */ 
+	.call-out {
+		font-size: 2rem;
+		margin-bottom: 2.7em;
+	}
+}

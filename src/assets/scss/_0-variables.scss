@@ -1,0 +1,29 @@
+/* Break points */
+$bp-xsmall :         18.75em; /* 300px */
+$bp-small :          34.375em; /* 550px */
+$bp-smallmedium :    40em; /* 640px */
+/* Foundation medium 40em */
+$bp-medium :         50em; /* 800px */
+$bp-medium-large :   62.5em; /* 1000px */
+/* Foundation large  64.063em */
+$bp-large :          75em; /* 1200px */
+
+/* Colors */
+$yellow :            #ffcf4c;
+$lightyellow :       #ffdd82;
+$blue :              #010086;
+$pink :              #e0347d;
+$orange :            #ec6000;
+$lightgray :         #e5e5e5;
+$reggray :           #ccc;
+$gray :              #b0b0b0;
+$darkgray :          #696969;
+$reallydarkgry :     #222;
+$black :             #000000;
+
+/* Fonts */
+$reg-font :      			'Open Sans', sans-serif;
+$condensed :          'Roboto Condensed', sans-serif;
+
+/* Misc */
+$transition :   all 0.5s ease-out;
