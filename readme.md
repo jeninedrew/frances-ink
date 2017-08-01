@@ -1,12 +1,10 @@
-# Frances Ink's Site (https://frances.ink/) 
+# [Frances Ink's Site](https://frances.ink/) 
 
-## ZURB Template
+Check out the [case study](https://frances.ink/portfolio/frances-ink.html).
 
-[![devDependency Status](https://david-dm.org/zurb/foundation-zurb-template/dev-status.svg)](https://david-dm.org/zurb/foundation-zurb-template#info=devDependencies)
+### ZURB Template
 
-**Please open all issues with this template on the main [Foundation for Sites](https://github.com/zurb/foundation-sites/issues) repo.**
-
-This is the official ZURB Template for use with [Foundation for Sites](http://foundation.zurb.com/sites). We use this template at ZURB to deliver static code to our clients. It has a Gulp-powered build system with these features:
+The ZURB Template for use with [Foundation for Sites](http://foundation.zurb.com/sites) is a Gulp-powered build system with these features:
 
 - Handlebars HTML templates with Panini
 - Sass compilation and prefixing
@@ -16,3 +14,10 @@ This is the official ZURB Template for use with [Foundation for Sites](http://fo
   - CSS compression
   - JavaScript compression
   - Image compression
+
+  ### Lazy Load Plugin for JQuery
+
+  [Lazy Load](https://appelsiini.net/projects/lazyload/) delays loading of images.
+
+  - Makes the page load faster
+  - Potentially reduces server load
