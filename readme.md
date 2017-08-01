@@ -2,7 +2,7 @@
 
 Check out the [case study](https://frances.ink/portfolio/frances-ink.html).
 
-### ZURB Template
+## ZURB Template
 
 The ZURB Template for use with [Foundation for Sites](http://foundation.zurb.com/sites) is a Gulp-powered build system with these features:
 
@@ -15,9 +15,9 @@ The ZURB Template for use with [Foundation for Sites](http://foundation.zurb.com
   - JavaScript compression
   - Image compression
 
-  ### Lazy Load Plugin for JQuery
+## Lazy Load Plugin for JQuery
 
-  [Lazy Load](https://appelsiini.net/projects/lazyload/) delays loading of images.
+[Lazy Load](https://appelsiini.net/projects/lazyload/) delays loading of images.
 
-  - Makes the page load faster
-  - Potentially reduces server load
+- Makes the page load faster
+- Potentially reduces server load
