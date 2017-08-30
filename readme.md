@@ -1,4 +1,4 @@
-# [Frances Ink's Site](https://frances.ink/) 
+# [Frances Ink](https://frances.ink/) 
 
 Check out the [case study](https://frances.ink/portfolio/frances-ink.html).
 
