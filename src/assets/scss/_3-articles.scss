@@ -72,6 +72,7 @@ article section {
 
 /* Article Teaser
 ------------------------------------------ */
+
 .call-out {
 	font-family: $condensed;
 	font-size: 1.2rem;
@@ -107,6 +108,11 @@ a.call-out__link span:active {
 }
 .words--double--article .screenshots img {
 	margin-top: 3em;
+}
+.repo {
+	text-align: center;
+	margin-top: 0-.2rem;
+	margin-bottom: 2rem;
 }
 
 /* Frances Ink case study
@@ -185,6 +191,10 @@ LARGE BREAKING POINT (1024px)
 	.colors--frances-ink {
 		margin-top: 0;
 		margin-bottom: .2em;
+	}
+	.repo {
+		margin-top: -1.5rem;
+		margin-bottom: 2rem;
 	}
 }
 /*------------------------------------------
