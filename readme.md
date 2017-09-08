@@ -1,6 +1,7 @@
 # [Frances Ink](https://frances.ink/) 
 
 Check out the [case study](https://frances.ink/portfolio/frances-ink.html).
+- Use [BEM](http://getbem.com/)
 
 ## ZURB Template
 
