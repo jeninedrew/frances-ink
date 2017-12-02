@@ -1,0 +1,174 @@
+<body class="case-study-single-page">
+  {{> header}}
+
+  <main id="content" role="main">
+    <section class="main-content-area">
+      <article class="article-full" role="article">
+        <p class="number number--article-full">2</p>
+        <h1 class="page-title page-title--article-full">Modular Design</h1>
+        <h2 class="page-sub-heading page-sub-heading--article-full">Case Study</h2>
+        <section class="row">
+          <div class="article-intro">
+            <div class="medium-10 medium-offset-1 large-6 large-offset-0 columns words--single">
+              <p class="intro">
+								A <a href="https://www.drupal.org/docs/8">Drupal 8</a> theme integrated with <a href="http://patternlab.io/">Pattern Lab</a>, a collection of tools for creating modular design systems. 
+							</p>
+							<p>
+								Integrating pattern Lab enhances how designers, developers and clients collaborate, focusing on reusable UI elements and a centralized source for easy modification across patterns. Interactive updates mean components can be tested in the browser to optimize for responsiveness, accessibility and performance.
+							</p>
+						</div>
+            <ul class="medium-8 medium-offset-2 large-6 large-offset-0 end columns article-intro__list">
+							<li>Strategy, Design and Development</li>
+							<li>Integrated Design System</li>
+							<li>Drupal 8 Theme</li>
+							<li>Pattern Lab</li>
+              <li>Content Strategy</li>
+							<li>HTML, CSS, Sass, Grunt, jQuery, Twig, MySQL</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="row">
+					<h2 class="section-title">Design Highlights</h2>
+					<h3>Modular Design System</h3>
+
+					<div class="medium-10 medium-offset-1 large-12 large-offset-0 end columns words--double--article">
+						<div class="large-6 end columns">
+							<p class="intro">
+								Two primary goals motivated the theme design. The client needed a design system that was easier to maintain and improved accessibility and performance.    </p>
+							<p>
+								Pattern Lab, an open-source tool for building UI design systems, was chosen as a way to streamline design, encourage a standardized approach and improve collaboration. The flexible approach reduces complexity through a system of UI components. A modular approach like Pattern Lab relies on smaller design components, combining them to create page sections and templates.
+							</p>
+						</div>
+						<div class="large-6 end columns">
+							<p>
+								This approach is easier to maintain, eliminating time spent on different versions and edge cases. Instead, Pattern Lab provides a way to describe the stitched together patterns, helping designers and developers easily reference and update components. Knowing many designers and developers would contribute to the site, it was important to build a flexible and standardized design system.
+							</p>
+							<p>
+								Pattern Lab also provided a way to efficiently communicate with the client. Interactive wireframes are part of the workflow. Throughout the process, the client was able to interact with individual components and low-fidelity versions of final pages, supporting an iterative design process.
+							</p>
+						</div>
+					</div>
+
+					<div class="small-12 columns screenshots">
+						<img class="lazy no-js" data-original="/assets/img/capr/capr-flow.png" alt="wireframe">
+						<noscript><img src="/assets/img/capr/capr-flow.png" alt="wireframe"></noscript>
+					</div>
+
+          <div class="medium-10 medium-offset-1 large-12 large-offset-0 end columns words--double--article">
+						<h3 class="text-center">Responsive Design</h3>
+						<div class="large-6 columns">
+							<p class="intro">
+								Responsive websites focus on delivering a thoughtful user experience regardless of environment, bandwidth or specific user needs.
+							</p>
+							<p>
+								Quickly moving designs to the browser supports a mobile-first responsive approach. Module design is efficient, leaving more time for testing and optimizing components.
+							</p>
+							<p>
+								Pattern Lab provides a disco mode test for all the screen sizes!
+							</p>
+						</div>
+						<div class="large-6 end columns screenshots">
+							<img class="lazy no-js" data-original="/assets/img/capr/capr-animated.gif" alt="edit page process">
+							<noscript><img src="/assets/img/capr/capr-animated.gif" alt="edit page process"></noscript>
+						</div>
+					</div>
+				</section>
+
+				<section class="row">
+					<h2 class="section-title">Technical Details</h2>
+					<p class="repo"><a href="https://github.com/jeninedrew/boom">Drupal 8 Theme on GitHub</a></p>
+
+					
+					<div class="large-6 end columns">
+							<h3>Integrated Design System</h3>
+					<p class="intro">
+						The Drupal theme integrates pattern Lab, automatically updating the site when patterns are modified.
+					</p>
+					<p>
+						Drupal 8 improvements included a simplified theme layer and the introduction of the <a href="https://twig.symfony.com/">Twig</a> templating language. This theme is built using the <a href="https://github.com/forumone/pattern-lab-starter-gesso">Gesso</a> starter theme, a modern theme that leverages Drupal 8 improvements. Gesso refers to <a href="https://www.drupal.org/node/1887918">Drupal’s CSS best practices</a>, using <a href="https://smacss.com/">SMACSS</a> to organize styles.</p>
+				</div>
+				<div class="large-6 end columns">
+					<p>
+							Gesso integrates Pattern Lab, automatically updating the theme when patterns are modified. This ensures consistency and saves time. An integrated component-based design system is efficient. The approach addresses the client's primary goals, making the the site easier to maintain and enabling more focused optimization.
+					</p>
+					<p>
+							<a href="https://gruntjs.com/">Grunt</a> compiles <a href="http://sass-lang.com/">Sass</a> and Pattern Lab files, watching them for changes. Flexbox was used for layout.</p>
+				</div>
+					<div class="small-12 columns">
+						<img class="lazy no-js" data-original="/assets/img/drupal-theme/screen.png" alt="TK">
+						<noscript><img src="Tg" alt="TK"></noscript>
+					</div>
+				</section>
+
+        <section class="row">
+          <h2 id="voice2" class="section-title">Content Strategy</h2>
+          <div class="medium-10 medium-offset-1 large-12 large-offset-0 end columns">
+						<div class="medium-10 medium-offset-1 large-12 large-offset-0 end columns words--double--article">
+						<div class="large-6 end columns words--single">
+							<h3>Create Once <br>Publish Everywhere</h3>
+							<p class="intro">
+								Creating content once and publishing in multiple places widely disseminates content without overly burdening the creator.
+							</p>
+							<p>
+								After taking inventory of existing content and assessing organizational goals, a content strategy was created, informing the theme design. Featured content is promoted from the blog interface. Custom summaries and featured images are added and the appropriate version of the post displays when featured. Managing content in one place eliminates the need to maintain multiple sets of content. Relevant posts are featured with minimal effort and searchable archives are preserved.
+							</p>
+							<p>
+								Members with different roles contribute and curate featured content. The content strategy engages contributors while allowing privileged users to curate highly visible content. Based on the user’s permissions, instructions and resources for managing content are shown. 
+							</p>
+							<p>
+								To engage as many members as possible, adding content is straightforward for users with limited access. Most volunteers are given Contributor accounts. When creating content, their admin interface has limited options beyond tagging the post and adding a custom summary. Once published, the post appears on designated pages.
+							</p>
+							<p>
+								A handful of trained users have advanced privileges, allowing them to promote posts and edit page content. Users with Editor accounts can promote any blog post, update page content and edit all content created by a Contributor. While Contributors provide the bulk of the of content, Editors strategically feature relevant articles and media throughout the site.
+							</p>
+            </div>
+            
+          </div>
+        </section>
+
+        <section class="row">
+          <a class="read-more__link" href="/portfolio/first-choice.html">
+            <button id="animate-button--capr-page" class="large-12 columns read-more__button read-more--article-full">Next Case Study</button>
+          </a>
+        </section>
+      </article>
+    </section><!-- main-content-area -->
+  </main>
+
+	{{> footer}}
+	
+
+
+
+	<div class="small-10 small-offset-1 medium-12 medium-offset-0 end columns screenshots sample">
+			<div class="medium-4 columns">
+				<img class="lazy no-js" data-original="/assets/img/capr/capr-front.png" alt="home page">
+				<noscript><img src="/assets/img/capr/capr-front.png" alt="home page"></noscript>
+			</div>
+			<div class="medium-4 columns">
+				<img class="lazy no-js" data-original="/assets/img/capr/capr-chapters.png" alt="local chapters page">
+				<noscript><img src="/assets/img/capr/capr-chapters.png" alt="local chapters page"></noscript>
+				<img class="lazy no-js" data-original="/assets/img/capr/capr-donate.png" alt="donate page">
+				<noscript><img src="/assets/img/capr/capr-donate.png" alt="donate page"></noscript>
+			</div>
+			<div class="medium-4 columns">
+				<img class="lazy no-js" data-original="/assets/img/capr/capr-issues.png" alt="issues page">
+				<noscript><img src="/assets/img/capr/capr-issues.png" alt="issues page"></noscript>
+			</div>
+		</div>
+
+		<section class="row">
+				<div class="small-12 medium-10 medium-offset-1 large-8 large-offset-2 end columns text-center screenshots">
+					<img class="lazy no-js" data-original="/assets/img/capr/capr-animated.gif" alt="edit page process">
+					<noscript><img src="/assets/img/capr/capr-animated.gif" alt="edit page process"></noscript>
+				</div>
+				<p class=" small-12 medium-10 medium-offset-1 large-6 large-offset-3 text-center">
+					To edit, users with appropriate permissions are able to simply hover over content and select <b>Edit</b> to get to the admin screen. 
+				</p>
+			</section>
+
+			<div class="small-10 small-offset-1 medium-8 medium-offset-2 large-5 large-offset-1 end columns">
+					<img class="lazy no-js blog-admin-interface" data-original="/assets/img/capr/capr-admin.jpg" alt="blog admin interface">
+					<noscript><img class="blog-admin-interface" src="/assets/img/capr/capr-admin.jpg" alt="blog admin interface"></noscript> 
+				</div>
