@@ -30,12 +30,45 @@
 
     <script src="/assets/js/app.js"></script>
 
-    <script type="text/javascript">
+		<script type="text/javascript">
+			var lazy = $("img.lazy")
+			var animatedButton = $('.read-more__button');
+
       $(document).ready(function() {
-        $("img.lazy").lazyload({
+        lazy.lazyload({
             effect : "fadeIn"
         });
+				// New on e goes below!
+
+				animatedButton.waypoint(
+
+					function() { $(this.element).toggleClass('read-more__button--animated')}, 
+
+					{ offset: '90%'}
+
+				);
+
+
+
+
+				animatedButton.waypoint(function() {
+					$(this.element).toggleClass('read-more__button--animated')
+				}, {
+					offset: '10%'
+				});
+
+				/*
+				animateButton.waypoint(function(direction) {
+						if (direction === 'down') {
+							$(this.element).addClass('read-more__button--animated')
+						}
+					}, { offset: 'bottom-in-view' }
+					);
+				*/
+
+				// New code goes above!
       });
+
     </script>
   </body>
 </html>
