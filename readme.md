@@ -21,3 +21,16 @@ The ZURB Template for use with [Foundation for Sites](http://foundation.zurb.com
 
 - Makes the page load faster
 - Potentially reduces server load
+
+## Getting Started
+
+For development, using [Foundation CLI](https://github.com/zurb/foundation-cli)...
+
+```bash
+foundation watch
+```
+To create a production build...
+
+```bash
+foundation build
+```
