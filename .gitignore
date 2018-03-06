@@ -4,4 +4,5 @@ npm-debug.log
 bower_components
 dist/portfolio/template.html
 dist
+DEVNOTES.md
 *.swp
