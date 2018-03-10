@@ -17,14 +17,12 @@ The focus is on a clean presentation and improved performance. Using Sass and th
 <br> 
 
 <p align="center">
-  <img src ="https://frances.ink/assets/img/frances-ink/fi-work.png" />
+  <img style="border: 1px solid #000" src ="https://frances.ink/assets/img/frances-ink/fi-work.png" />
 </p>
 
-<div style="text-align:center"><img src ="https://frances.ink/assets/img/frances-ink/fi-work.png" /></div>
-
-![site rendered on small screen](https://frances.ink/assets/img/frances-ink/fi-small.png?raw=true "site rendered on small screen")
-
-https://github.com/jeninedrew/frances-ink/blob/master/src/assets/img/frances-ink/fi-small.png
+<p align="center">
+  <img style="border: 1px solid #000" src ="https://frances.ink/assets/img/frances-ink/fi-small.png" />
+</p>
 
 ## ZURB Template
 
@@ -58,3 +56,54 @@ To create a production build...
 ```bash
 foundation build
 ```
+
+## Design Highlights
+
+###  Structure 
+
+The site is centered around case studies. When considering how to explain Frances Ink’s focus and approach to potential clients, presenting past work was the most nuanced approach. Case studies are an opportunity to explain the thought process behind decisions while addressing general questions visitors might have.
+
+* What has this company done in the past?
+* What technologies do they work with?
+* How do they approach projects?
+* What is their design aesthetic?
+
+Case study teasers appear on the front page, linking out to the full article. After the about page and basic contact page, case studies make up the bulk of the site’s content.
+
+### Template
+
+The template design relies on a bold header and footer. Negative space and styled fonts do most of the work. The bold template design shifts attention to the case studies through contrast. Similarly, the large headings make the case study details pop.
+
+### Colors
+
+The site’s color palette is limited. Yellow is the single vibrant color and only used to highlight actionable elements. Splashes of color mostly come from case study screenshots. The toned down template sets the screenshots apart as the intended focal points of the site.
+
+### Typography
+
+With such stark colors, the typography determines the site’s feel. Open Sans is the primary font used throughout the site. Roboto Condensed is used as a condensed alternative. These complimentary sans serif options match the bold colors and template design.
+
+## Technical Details
+
+### Performance 
+The site was built using Foundation, a front-end framework. Foundation provides a command-line tool to quickly set up projects with Sass and Gulp. The build process automatically does numerous performance-improving tasks.
+
+Optimizing the site’s images requires a few extra steps. After choosing the appropriate format and size, Photoshop’s Save for Web feature results in considerable savings. Finally, images are compressed using ImageOptim.
+
+The site is image heavy, with numerous screenshots shown in every case study and on the front page. To reduce the performance hit, images are only loaded when in the viewport. This is done with the Lazy Load Plugin for jQuery.
+
+Connecting to Cloudflare for improved performance and security is a crucial last step. The service's content delivery network (CDN) provides access to distributed servers for faster page load. Additionally, taking advantage of Cloudflare’s Secure Sockets Layer (SSL) keeps data private.
+
+Performance checks ensure nothing was missed. YSlow is great resource. This site got an A!
+
+### Accessibility
+
+Improving accessibility means removing barriers to accessing this site. This includes making the site usable for people with disabilities, people on various connections and people using a different browser or device. Accessibility is built into Foundation’s components which is a great starting point. Here are some additional accessibility best practices considered while building the site.
+
+* Present critical information clearly and in appropriate formats
+* Test in different browsers and screen sizes
+* Optimize for disabled JavaScript
+* Write semantic code
+* Add appropriate markup
+* Use contrasting colors
+* Test with a screen reader like ChromeVox
+* Test using a keyboard to navigate
