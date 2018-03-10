@@ -17,11 +17,7 @@ The focus is on a clean presentation and improved performance. Using Sass and th
 <br> 
 
 <p align="center">
-  <img style="border: 1px solid #000" src ="https://frances.ink/assets/img/frances-ink/fi-work.png" />
-</p>
-
-<p align="center">
-  <img style="border: 1px solid #000" src ="https://frances.ink/assets/img/frances-ink/fi-small.png" />
+  <img src ="https://frances.ink/assets/img/frances-ink/fi-work.png" />
 </p>
 
 ## ZURB Template
@@ -69,6 +65,12 @@ The site is centered around case studies. When considering how to explain France
 * What is their design aesthetic?
 
 Case study teasers appear on the front page, linking out to the full article. After the about page and basic contact page, case studies make up the bulk of the site’s content.
+
+## Responsive Design
+
+<p align="center">
+  <img src ="https://frances.ink/assets/img/frances-ink/fi-small.png" />
+</p>
 
 ### Template
 
