@@ -66,7 +66,7 @@ The site is centered around case studies. When considering how to explain France
 
 Case study teasers appear on the front page, linking out to the full article. After the about page and basic contact page, case studies make up the bulk of the site’s content.
 
-## Responsive Design
+### Responsive Design
 
 <p align="center">
   <img src ="https://frances.ink/assets/img/frances-ink/fi-small.png" />
