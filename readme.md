@@ -6,7 +6,9 @@ Frances Ink's portfolio site is built with the help of Foundation, a front-end f
 
 The focus is on a clean presentation and improved performance. Using Sass and the BEM methodology along with semantic HTML5 resulted in improved code. Relying on Gulp made development a breeze.
 
-![](images/table 1-1.png?raw=true)
+<p align="center">
+  <img src ="https://frances.ink/assets/img/frances-ink/fi-work.png" />
+</p>
 
 <div style="text-align:center"><img src ="https://frances.ink/assets/img/frances-ink/fi-work.png" /></div>
 
