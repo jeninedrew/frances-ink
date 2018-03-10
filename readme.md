@@ -8,6 +8,8 @@ The focus is on a clean presentation and improved performance. Using Sass and th
 
 ![](images/table 1-1.png?raw=true)
 
+<div style="text-align:center"><img src ="https://frances.ink/assets/img/frances-ink/fi-work.png" /></div>
+
 ![site rendered on small screen](https://frances.ink/assets/img/frances-ink/fi-small.png?raw=true "site rendered on small screen")
 
 https://github.com/jeninedrew/frances-ink/blob/master/src/assets/img/frances-ink/fi-small.png
