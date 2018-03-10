@@ -2,6 +2,16 @@
 
 Check out the [case study](https://frances.ink/portfolio/frances-ink.html).
 
+Frances Ink's portfolio site is built with the help of Foundation, a front-end framework, and a little bit of jQuery.
+
+The focus is on a clean presentation and improved performance. Using Sass and the BEM methodology along with semantic HTML5 resulted in improved code. Relying on Gulp made development a breeze.
+
+![](images/table 1-1.png?raw=true)
+
+![site rendered on small screen](/jeninedrew/frances-ink/blob/master/src/assets/img/frances-ink/fi-small.png?raw=true "site rendered on small screen")
+
+https://github.com/jeninedrew/frances-ink/blob/master/src/assets/img/frances-ink/fi-small.png
+
 ## ZURB Template
 
 The ZURB Template for use with [Foundation for Sites](http://foundation.zurb.com/sites) is a Gulp-powered build system with these features:
