@@ -97,12 +97,6 @@ Connecting to Cloudflare for improved performance and security is a crucial last
 
 Performance checks ensure nothing was missed. YSlow is great resource. This site got an A!
 
-<br> 
-
-<p align="center">
-  <img src ="https://frances.ink/assets/img/frances-ink/fi-performance.png" />
-</p>
-
 ### Accessibility
 
 Improving accessibility means removing barriers to accessing this site. This includes making the site usable for people with disabilities, people on various connections and people using a different browser or device. Accessibility is built into Foundation’s components which is a great starting point. Here are some additional accessibility best practices considered while building the site.
@@ -115,3 +109,9 @@ Improving accessibility means removing barriers to accessing this site. This inc
 * Use contrasting colors
 * Test with a screen reader like ChromeVox
 * Test using a keyboard to navigate
+
+<br> 
+
+<p align="center">
+  <img src ="https://frances.ink/assets/img/frances-ink/fi-performance.png" />
+</p>
