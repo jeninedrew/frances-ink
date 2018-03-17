@@ -23,7 +23,7 @@ foundation build
 
 ## Quick Overview
 
-Built using [Foundation’s gulp-powered CLI build system](https://github.com/zurb/foundation-cli)...
+Developed using [Foundation’s gulp-powered CLI build system](https://github.com/zurb/foundation-cli).
 
 ### ZURB Template
 
