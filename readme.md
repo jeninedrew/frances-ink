@@ -15,7 +15,7 @@ Using the [Foundation CLI](https://github.com/zurb/foundation-cli), for developm
 ```bash
 foundation watch
 ```
-To create a production bui:
+To create a production build:
 
 ```bash
 foundation build
