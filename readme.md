@@ -4,7 +4,7 @@ Check out the [case study](https://frances.ink/portfolio/frances-ink.html).
 
 ## Getting Started
 
-Pull down the required packages from the project directory: 
+Pull down the required packages: 
 
 ```bash
 npm install
