@@ -1,7 +1,7 @@
 @charset 'utf-8';
 
-@import 'settings';
-@import 'foundation';
+@import "settings";
+@import "foundation";
 
 @include foundation-global-styles;
 @include foundation-grid;
@@ -13,12 +13,12 @@
 @include foundation-top-bar;
 @include foundation-visibility-classes;
 
-@import '0-variables';
-@import '1-base';
-@import '2-header';
-@import '3-articles';
-@import '4-about';
-@import '5-case-studies';
-@import '6-contact';
-@import '8-error-page';
-@import '9-footer';
+@import "0-variables";
+@import "1-base";
+@import "2-header";
+@import "3-articles";
+@import "4-about";
+@import "5-case-studies";
+@import "6-contact";
+@import "8-error-page";
+@import "9-footer";

@@ -1,83 +1,84 @@
 .contact-page.dark-page {
-	background: #000;
+  background: #000;
 }
 .contact-page main {
-	background: #fff;
+  background: #fff;
 }
 .contact-page .contact-info {
   margin: 8.25em 0;
 }
 .contact-page .contact-info h3 {
-	font-size: 1.2rem;
+  font-size: 1.2rem;
   text-align: center;
   margin: 1em 0;
-  line-height: .9;
+  line-height: 0.9;
   font-weight: 600;
 }
-.contact-page .contact-info a, .contact-page .contact-info a:visited {
-	color: #000;
+.contact-page .contact-info a,
+.contact-page .contact-info a:visited {
+  color: #000;
 }
 .contact-page .contact-info a:hover,
 .contact-page .contact-info a:active,
 .contact-page .contact-info a:focus {
-	color: $yellow;
-	transition: $transition;
+  color: $yellow;
+  transition: $transition;
 }
 .contact-page .about-blurb {
-	padding-bottom: 1em;
-	width: 100%;
-	margin: 0 auto;
+  padding-bottom: 1em;
+  width: 100%;
+  margin: 0 auto;
 }
 .contact-page footer {
-	background: #000;
-	padding: 3em 0 1.75em 0;
+  background: #000;
+  padding: 3em 0 1.75em 0;
 }
 /*------------------------------------------
 XSMALL BREAKING POINT  (300px)
 ------------------------------------------ */
 @media (min-width: $bp-xsmall) {
-	.contact-page .contact-info {
-     margin: 8em 0 9em 0;
-	}
-	.contact-page .contact-info h3 {
-		font-size: 2rem;
-		 margin: 1em 0;
-	}
-	.contact-page .about-blurb {
-		padding: 3em 0 3em 0;
-		width: 23.75em;
-	}
+  .contact-page .contact-info {
+    margin: 8em 0 9em 0;
+  }
+  .contact-page .contact-info h3 {
+    font-size: 2rem;
+    margin: 1em 0;
+  }
+  .contact-page .about-blurb {
+    padding: 3em 0 3em 0;
+    width: 23.75em;
+  }
 }
 /*------------------------------------------
 SMALL BREAKING POINT (550px)
 ------------------------------------------ */
 @media (min-width: $bp-small) {
-	.contact-page .contact-info {
-     margin: 9.75em 0 10.25em 0;
-	}
-	.contact-page .contact-info h3 {
-		font-size: 3rem;
-	}
-	.contact-page .about-blurb {
-		width: 26em;
-	}
+  .contact-page .contact-info {
+    margin: 9.75em 0 10.25em 0;
+  }
+  .contact-page .contact-info h3 {
+    font-size: 3rem;
+  }
+  .contact-page .about-blurb {
+    width: 26em;
+  }
 }
 /*------------------------------------------
 MEDIUM BREAKING POINT (800px)
 ------------------------------------------ */
 @media (min-width: $bp-medium) {
-	.contact-page .contact-info {
-     margin: 8.75em 0 9.25em 0;
-	}
-	.contact-page .contact-info h3 {
-		font-size: 3.8rem;
-	}
+  .contact-page .contact-info {
+    margin: 8.75em 0 9.25em 0;
+  }
+  .contact-page .contact-info h3 {
+    font-size: 3.8rem;
+  }
 }
 /*------------------------------------------
 MEDIUMLARGE (1000px)
 ------------------------------------------ */
 @media (min-width: $bp-medium-large) {
-	.contact-page .contact-info {
-     margin: 9.75em 0 10.25em 0;
-	}
+  .contact-page .contact-info {
+    margin: 9.75em 0 10.25em 0;
+  }
 }
