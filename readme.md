@@ -10,15 +10,13 @@ Pull down the required packages:
 npm install
 ```
 
-Using the [Foundation CLI](https://github.com/zurb/foundation-cli), for development:
-
 ```bash
-foundation watch
+npm start
 ```
 To create a production build:
 
 ```bash
-foundation build
+npm run-script build
 ```
 
 ## Quick Overview
