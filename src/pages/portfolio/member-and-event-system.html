@@ -11,7 +11,7 @@
           <div class="article-intro">
             <div class="medium-10 medium-offset-1 large-6 large-offset-0 columns words--single">
               <p class="intro">
-								<a href="https://civicrm.org/">CiviCRM</a> is a flexible relationship management platform that powers a membership and event registration system and integrates with <a href="https://www.drupal.org/">Drupal 7</a> and <a href="https://www.drupal.org/project/commerce">Drupal Commerce</a>.
+								<a href="https://civicrm.org/">CiviCRM</a> is a flexible relationship management platform that powers a membership and event registration system  and integrates with <a href="https://www.drupal.org/">Drupal</a> and <a href="https://www.drupal.org/project/commerce">Drupal Commerce</a>.
 							</p>
 							<p>
 								Custom modules extend functionality. <a href="https://www.docker.com/">Docker</a> and <a href="https://docs.devwithlando.io/">Lando</a> support development with <a href="https://git-scm.com/">Git</a> version control.
@@ -20,7 +20,7 @@
             <ul class="medium-8 medium-offset-2 large-6 large-offset-0 end columns article-intro__list">
 							<li>Strategy and Development</li>
 							<li>Drupal 7 and CiviCRM</li>
-							<li>Event System</li>
+							<li>Event Registration</li>
 							<li>Membership Management</li>
 							<li>HTML, CSS, JS, PHP, SQL, Git, Docker</li>
             </ul>
@@ -35,7 +35,7 @@
 							<p class="intro">
 								CiviCRM is an open-source customer relationship management system, primarily serving nonprofit and civic sector organizations. 
 							<p>
-								Member product are included in CiviCRM core features, making it a great relationship management choice for member supported sites. CiviCRM’s core team and active open-source community produce quality documentation, continuous development and issue tracking. Beyond the core product, contributed extensions offer additional features. Maintainable customization is enabled through a comprehensive API, hooks and command line tools.
+								CiviCRM core includes membership features, making it a great relationship management choice for member supported sites. CiviCRM’s core team and active open-source community produce quality documentation, ongoing development and issue tracking. Beyond the core product, contributed extensions offer additional features. Maintainable customization is enabled through a comprehensive API, hooks and command line tools.
 							</p>
 						</div>
 						<div class="large-6 end columns">
@@ -50,30 +50,33 @@
 
 					<div class="medium-12 medium-offset-0 end columns screenshots">
             <div class="medium-7 medium-offset-0 columns">
-             <img class="lazy no-js" data-original="/assets/img/member-and-event/member-type.png" alt="Trey Walker">
-             <noscript><img src="/assets/img/the-good-supply/tgs-artist-walker.png" alt="Trey Walker"></noscript>
+             <img class="lazy no-js" data-original="/assets/img/member-and-event/member-type.png" alt="create membership type">
+             <noscript><img src="/assets/img/member-and-event/member-type.png" alt="create membership type"></noscript>
             </div>
             <div class="medium-5 end columns">
-             <img class="lazy no-js" data-original="/assets/img/member-and-event/search.png" alt="Monohanako">
-             <noscript><img src="tgs-artist-monohanako.png" alt="Monohanako"></noscript>
+             <img class="lazy no-js" data-original="/assets/img/member-and-event/search.png" alt="search criteria">
+             <noscript><img src="/assets/img/member-and-event/search.png" alt="search criteria"></noscript>
             </div>
             <div class="medium-6 medium-offset-3 end columns screenshots">
-              <img class="lazy no-js" data-original="/assets/img/member-and-event/register.png" alt="artist page">
-              <noscript><img src="/assets/img/tgs-artists.png" alt="artist page"></noscript>
+              <img class="lazy no-js" data-original="/assets/img/member-and-event/register.png" alt="new event registration">
+              <noscript><img src="/assets/img/member-and-event/register.png" alt="new event registration"></noscript>
             </div>
           </div>
 
-					<div class="medium-10 medium-offset-1 large-12 large-offset-0 end columns words--double--article">
-						<div class="large-6 end columns">
-							<h3>Development <br/>Environment</h3>
+					<div class="medium-10 medium-offset-1 large-12 large-offset-0 end columns words--double--article ">
+						<div class="large-6 end columns member-and-event-dev-section">
+							<h3>Local Environment</h3>
+							<p class="intro">
+								Development is supported by <a href="https://www.docker.com/">Docker</a>, a container platform that enables better collaboration and optimization.
+							</p>
 							<p>
-								Development is supported by <a href="https://www.docker.com/">Docker</a>, a container platform that enables better collaboration and optimization. <a href="https://docs.devwithlando.io/">Lando</a> is built on Docker and further simplifies local development. Some of the many advantages to these tools include a development environment that mimics production, configuration stored in the repository, and quickly spinning up services and tools for faster development. Version control is managed with <a href="https://git-scm.com/">Git</a>. 
+								<a href="https://docs.devwithlando.io/">Lando</a> is built on Docker and further simplifies local development. Some of the many advantages to these tools include a development environment that mimics production, configuration stored in the repository, and quickly spinning up services and tools for faster development. Version control is managed with <a href="https://git-scm.com/">Git</a>. 
 							</p>
 						</div>
 						<div class="small-10 small-offset-1 medium-8 medium-offset-2 large-6 large-offset-0 end columns screenshots">
-              <img class="lazy no-js" data-original="/assets/img/member-and-event/term.png" alt="99 out of 100 performance score">
-              <noscript><img src="/assets/img/frances-ink/fi-performance.png" alt="99 out of 100 performance score"></noscript>
-              <p class="pic__caption"><a href="http://yslow.org/">YSow </a>performace check</p>
+              <img class="lazy no-js" data-original="/assets/img/member-and-event/term.png" alt="Lando information">
+              <noscript><img src="/assets/img/member-and-event/term.png" alt="Lando information"></noscript>
+              <p class="pic__caption"><a href="https://docs.devwithlando.io/">Lando</a> information</p>
 	          </div>
 					</div>
 				</section>
@@ -92,12 +95,12 @@
 							<p class="intro">
 								Drupal roles are synced with CiviCRM based on status rules, allowing the membership system to integrate seamlessly with the front end and Drupal’s account features. 
 							<p>
-								Updating the membership system replaced much of the existing site’s functionality. Leveraging CiviCRM’s deep integration made the site easier for staff to manage and presented users with a more consistent experience. Beyond CiviCRM, inherited projects include a member driven event calendar and registration requiring extensive updates. User and staff impact drove prioritization and thorough testing ensured a smooth transition to the new membership and event system.
+								Updating the membership system replaced much of the existing site’s functionality. Leveraging CiviCRM’s deep integration makes the site easier for staff to manage and presents users with a more consistent experience. Beyond CiviCRM, inherited projects include a member  controlled event calendar requiring extensive updates. User and staff impact drive prioritization and thorough testing ensures a smooth transition to the new membership and event system.
 							</p>
 						</div>
 						<div class="medium-10 medium-offset-1 large-5 large-offset-1 end columns screenshots">
-	           <img class="lazy no-js" data-original="/assets/img/member-and-event/form.png" alt="collections template">
-	           <noscript><img src="/assets/img/the-good-supply/tgs-collection.png" alt="collections template"></noscript>
+	           <img class="lazy no-js" data-original="/assets/img/member-and-event/form.png" alt="CiviCRM form">
+	           <noscript><img src="/assets/img/member-and-event/form.png" alt="CiviCRM form"></noscript>
 		        </div>
 					</div>
 				</section>
