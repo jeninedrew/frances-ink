@@ -1,496 +1,510 @@
 body {
-	font-family: $reg-font;
+  font-family: $reg-font;
 }
 main {
-	word-wrap: break-word; 
+  word-wrap: break-word;
 }
 .main-content-area {
-	margin: 0 auto;
-	max-width: 80em;
-	padding: 0 3%;
+  margin: 0 auto;
+  max-width: 80em;
+  padding: 0 3%;
 }
-h1, h2, h3, h4 {
-	font-kerning: normal;
+h1,
+h2,
+h3,
+h4 {
+  font-kerning: normal;
 }
-h1, h2, h3, h4, p, li {
-	font-family: $reg-font;
+h1,
+h2,
+h3,
+h4,
+p,
+li {
+  font-family: $reg-font;
 }
 article h3 {
-	font-size: 1.1875rem;
-	font-weight: 600;
-	color: $reallydarkgry;
-	letter-spacing: -.025em;
+  font-size: 1.1875rem;
+  font-weight: 600;
+  color: $reallydarkgry;
+  letter-spacing: -0.025em;
   padding-right: 0.9375rem;
-  margin-bottom: .5em;
+  margin-bottom: 0.5em;
 }
 .words--double--article > h3 {
-	padding-left: 0.9375rem;
+  padding-left: 0.9375rem;
 }
-p, li {
-	font-size: .8rem;
-	font-weight: 300;
+p,
+li {
+  font-size: 0.8rem;
+  font-weight: 300;
 }
 /* paragraph variations */
 .strong {
-	font-weight: 400;
+  font-weight: 400;
 }
 .intro {
-	font-size: 1rem;
-	font-weight: 900;
+  font-size: 1rem;
+  font-weight: 900;
 }
 .intro span {
-	font-size: 2em;
+  font-size: 2em;
 }
 a {
-	color: $black;
+  color: $black;
 }
-a:hover, 
+a:hover,
 a:focus,
 a:active {
-	color: $black;
+  color: $black;
 }
-p a, li a {
-	border-bottom: .05em dotted #828282;
+p a,
+li a {
+  border-bottom: 0.05em dotted #828282;
 }
-p a:hover, 
+p a:hover,
 p a:focus,
 p a:active {
-	border-bottom: none;
+  border-bottom: none;
 }
 #skip a {
-	position: absolute;
-	left:-10000px;
-	top: auto;
-	width:1px;
-	height:1px;
-	overflow:hidden;
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
 }
 #skip {
-	position: static;
-	width: auto;
-	height: auto;
+  position: static;
+  width: auto;
+  height: auto;
 }
 .quote {
-	border-left: none;
-	color: #000;
-	font-family: $reg-font;
+  border-left: none;
+  color: #000;
+  font-family: $reg-font;
   font-size: 1.7rem;
   font-weight: 900;
-	letter-spacing: -.015em;
-	line-height: 1;
-	margin-top: .4em;
-	padding: 0 0;
-	text-align: center;
+  letter-spacing: -0.015em;
+  line-height: 1;
+  margin-top: 0.4em;
+  padding: 0 0;
+  text-align: center;
 }
 .quote--little-guy {
-	border-left: none;
-	padding: 0.3rem 1.25rem 0 1.8rem;
+  border-left: none;
+  padding: 0.3rem 1.25rem 0 1.8rem;
 }
 .quote--little-guy p {
-		margin-top: -1.65em;
-		padding-bottom: .75rem;
-	}
+  margin-top: -1.65em;
+  padding-bottom: 0.75rem;
+}
 .quote--little-guy:before {
-	content: '"';
-	color: $gray;
-	margin-left: -.8em;
-	font-size: 1.3em;
+  content: '"';
+  color: $gray;
+  margin-left: -0.8em;
+  font-size: 1.3em;
 }
 .quote__attrib {
-	margin-top: 1.6em;
-	text-align: center;
+  margin-top: 1.6em;
+  text-align: center;
 }
 .quote:before {
-	content: '"';
-	color: $gray;
-	margin-left: -.8em;
-	font-size: 1.3em;
+  content: '"';
+  color: $gray;
+  margin-left: -0.8em;
+  font-size: 1.3em;
 }
 .page-title {
-	font-family: $condensed;
+  font-family: $condensed;
   font-size: 6rem;
-  line-height: .9;
+  line-height: 0.9;
   font-weight: 900;
-  letter-spacing: -.03em;
-  word-spacing: -.02em;
+  letter-spacing: -0.03em;
+  word-spacing: -0.02em;
   text-transform: uppercase;
-  padding-top: .6rem;
-  margin-bottom: .15em;
+  padding-top: 0.6rem;
+  margin-bottom: 0.15em;
 }
 .page-title--work-page {
-	font-size: 1.5rem;
-	letter-spacing: 0;
-	padding-top: .4em;
-	padding-bottom: 1em;
-	margin-bottom: .5em;
-	text-transform: uppercase;
+  font-size: 1.5rem;
+  letter-spacing: 0;
+  padding-top: 0.4em;
+  padding-bottom: 1em;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
   background: #000;
   color: #fff;
 }
 .page-title--work-page span {
-	color: #000;
-	display: block;
-	font-family: $condensed;
-	font-size: 2.2rem;
-  letter-spacing: -.03em;
-  padding-top: .02em;
+  color: #000;
+  display: block;
+  font-family: $condensed;
+  font-size: 2.2rem;
+  letter-spacing: -0.03em;
+  padding-top: 0.02em;
   text-transform: uppercase;
-  word-spacing: -.02em;
+  word-spacing: -0.02em;
   color: #fff;
 }
 .page-title--article-full {
   font-size: 2rem;
   font-weight: 900;
-  line-height: .9;
-  letter-spacing: -.03em;
-  margin-top: -.7em;
-  margin-bottom: .4em;
+  line-height: 0.9;
+  letter-spacing: -0.03em;
+  margin-top: -0.7em;
+  margin-bottom: 0.4em;
   padding-top: 0;
-	position: relative;
+  position: relative;
   text-align: center;
-  word-spacing: -.02em;
+  word-spacing: -0.02em;
 }
 .sentence-page-title {
-	font-family: $condensed;
+  font-family: $condensed;
   font-size: 1.6rem;
-  line-height: .9;
+  line-height: 0.9;
   font-weight: 900;
-  letter-spacing: -.03em;
-  word-spacing: -.03em;
+  letter-spacing: -0.03em;
+  word-spacing: -0.03em;
   text-align: center;
   text-transform: uppercase;
-	 padding-top: .75em;
-  margin-top: .5em;
-  margin-bottom: .8em;
+  padding-top: 0.75em;
+  margin-top: 0.5em;
+  margin-bottom: 0.8em;
 }
 .sentence-page-title--about-page {
-	max-width: 80em;
-	margin: 0 auto
+  max-width: 80em;
+  margin: 0 auto;
 }
 .page-sub-heading {
   color: $gray;
   line-height: 1;
   font-weight: 400;
-  letter-spacing: -.07em;
+  letter-spacing: -0.07em;
   text-align: center;
 }
 .page-sub-heading--article-teaser {
-	font-size: 2.5rem;
+  font-size: 2.5rem;
   margin-top: -1.6em;
-  margin-bottom: .5em;
-  padding-top: .9em;
-  word-spacing: -.01em;
+  margin-bottom: 0.5em;
+  padding-top: 0.9em;
+  word-spacing: -0.01em;
 }
 .page-sub-heading--article-full {
-	font-size: 1.8rem;
-	margin-bottom: 1.1em;
-	word-spacing: -.02em;
+  font-size: 1.8rem;
+  margin-bottom: 1.1em;
+  word-spacing: -0.02em;
 }
 .section-title {
-	font-size: 2.8em;
-	color: $gray;
-	font-weight: 900;
-	letter-spacing: -.05em;
-	text-align: center;
-	line-height: 1.2;
-	margin-bottom: .6em;
+  font-size: 2.8em;
+  color: $gray;
+  font-weight: 900;
+  letter-spacing: -0.05em;
+  text-align: center;
+  line-height: 1.2;
+  margin-bottom: 0.6em;
 }
 .list {
-	margin-left: 3em;
+  margin-left: 3em;
 }
 .words--single {
-	margin-bottom: 1.5em
+  margin-bottom: 1.5em;
 }
 .words--double {
-	margin-bottom: 1em
+  margin-bottom: 1em;
 }
 .words--double--article {
-	margin-bottom: 3em
+  margin-bottom: 3em;
 }
 .pic {
-	margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
 .pic--double {
-	padding: 0 4em;
+  padding: 0 4em;
 }
 .pic img {
-	width: 100%;
+  width: 100%;
   margin-bottom: 1em;
 }
 .pic__caption {
-	color: $darkgray;
+  color: $darkgray;
   font-weight: 300;
-  font-size: .8rem;
+  font-size: 0.8rem;
   text-align: center;
   width: 100%;
 }
 .pic__caption--center {
-	text-align: center;
+  text-align: center;
 }
 .pic__caption a {
-	border-bottom: $gray dotted .01em;
-	color: $darkgray;
+  border-bottom: $gray dotted 0.01em;
+  color: $darkgray;
 }
-.pic__caption a:hover, 
-.pic__caption a:focus, 
+.pic__caption a:hover,
+.pic__caption a:focus,
 .pic__caption a:active {
-	border-bottom: none;
-	color: $darkgray;
+  border-bottom: none;
+  color: $darkgray;
 }
 .pic--about-page {
-	margin-bottom: 4em;
+  margin-bottom: 4em;
 }
 .pic--the-good-supply {
-	margin-top: .5em;
+  margin-top: 0.5em;
 }
 /* Set height and width for lazy load images */
 .lazy {
-	width: 100%;
-	height: auto;
+  width: 100%;
+  height: auto;
 }
 /* Removes the alt tag from showing for the lazy loaded image when js isn't enabled */
 .no-js {
-	  .lazy {
-  	display: none;
+  .lazy {
+    display: none;
   }
 }
 /*------------------------------------------
 XSMALL BREAKING POINT  (300px)
 ------------------------------------------ */
 @media (min-width: $bp-xsmall) {
-	p, ul, li {
-		font-size: .9rem;
-	}
-	.article-teaser h3, 
-	.article-full h3 {
-		font-size: 1.5rem;
-	}
-	.page-title--work-page {
-		font-size: 2rem;
-	}
-	.page-title--work-page span {
-		font-size: 3rem;
-	}
-	.page-title--article-full {
+  p,
+  ul,
+  li {
+    font-size: 0.9rem;
+  }
+  .article-teaser h3,
+  .article-full h3 {
+    font-size: 1.5rem;
+  }
+  .page-title--work-page {
+    font-size: 2rem;
+  }
+  .page-title--work-page span {
     font-size: 3rem;
-    margin-top: -.4em;
+  }
+  .page-title--article-full {
+    font-size: 3rem;
+    margin-top: -0.4em;
   }
   .page-sub-heading--article-full {
-	  font-size: 2.2rem;
-	}
-	.sentence-page-title {
-	  font-size: 2.8rem;
-	}
+    font-size: 2.2rem;
+  }
+  .sentence-page-title {
+    font-size: 2.8rem;
+  }
 }
 /*------------------------------------------
 SMALL BREAKING POINT (425px)
 ------------------------------------------ */
 @media (min-width: 26em) {
-	.page-title--work-page {
-		font-size: 2.6rem;
-	}
-	.page-title--work-page span {
-		font-size: 4rem;
-	}
+  .page-title--work-page {
+    font-size: 2.6rem;
+  }
+  .page-title--work-page span {
+    font-size: 4rem;
+  }
 }
 /*------------------------------------------
 SMALL BREAKING POINT (550px)
 ------------------------------------------ */
 @media (min-width: $bp-small) {
-	p, ul, li {
-		font-size: 1rem;
-	}
-	.article-teaser h3, .article-full h3 {
-		font-size: 2rem;
-	}
-	.intro {
-		font-size: 1.2rem;
-	}
-	.quote {
-		font-size: 2.3rem;
-		padding: .5em .5em 0 .5em;
-		margin-top: .2em;
-	}
-	.page-title--work-page {
-		font-size: 3.2rem;
-	}
-	.page-title--work-page span {
-		font-size: 5.5rem;
-	}
-	.page-title--article-full {
-    font-size: 5rem;
-    margin-bottom: .25em;
+  p,
+  ul,
+  li {
+    font-size: 1rem;
   }
-	.page-sub-heading--article-teaser {
-		margin-top: -1.4em;
-		font-size: 4.5rem;
-		margin-bottom: .6em;
-	}
-	.page-sub-heading--article-full {
-	  font-size: 3.5rem;
-	}
-	.sentence-page-title {
-	  font-size: 3.7rem;
-	}
-	.section-title {
-		font-size: 3.2em;
-	}
-	.pic {
-		margin-bottom: 1.5rem;
-	}
+  .article-teaser h3,
+  .article-full h3 {
+    font-size: 2rem;
+  }
+  .intro {
+    font-size: 1.2rem;
+  }
+  .quote {
+    font-size: 2.3rem;
+    padding: 0.5em 0.5em 0 0.5em;
+    margin-top: 0.2em;
+  }
+  .page-title--work-page {
+    font-size: 3.2rem;
+  }
+  .page-title--work-page span {
+    font-size: 5.5rem;
+  }
+  .page-title--article-full {
+    font-size: 5rem;
+    margin-bottom: 0.25em;
+  }
+  .page-sub-heading--article-teaser {
+    margin-top: -1.4em;
+    font-size: 4.5rem;
+    margin-bottom: 0.6em;
+  }
+  .page-sub-heading--article-full {
+    font-size: 3.5rem;
+  }
+  .sentence-page-title {
+    font-size: 3.7rem;
+  }
+  .section-title {
+    font-size: 3.2em;
+  }
+  .pic {
+    margin-bottom: 1.5rem;
+  }
 }
 /*------------------------------------------
 SMALLMEDIUM BREAKING POINT (640px)
 ------------------------------------------ */
 @media (min-width: $bp-smallmedium) {
-	.article-teaser h3, .article-full h3 {
-		font-size: 2.3rem;
-	}
-	.page-title--work-page {
-  	background: none;
-  	color: #000;
-  	padding-top: .8em;
-		padding-bottom: 0;
-		margin-bottom: .07em;
-		font-size: 4.2rem;
+  .article-teaser h3,
+  .article-full h3 {
+    font-size: 2.3rem;
+  }
+  .page-title--work-page {
+    background: none;
+    color: #000;
+    padding-top: 0.8em;
+    padding-bottom: 0;
+    margin-bottom: 0.07em;
+    font-size: 4.2rem;
   }
   .page-title--work-page span {
-  	color: #000;
-  	font-size: 6rem;
+    color: #000;
+    font-size: 6rem;
   }
   .page-title--article-full {
     font-size: 7.2rem;
-   	margin-top: -.25em;
-    margin-bottom: .1em;
+    margin-top: -0.25em;
+    margin-bottom: 0.1em;
   }
   .page-sub-heading--article-full {
-		font-size: 4.7rem;
-		margin-bottom:.8em;
-	}
-	.sentence-page-title {
-		padding-top: .6em;
-	  font-size: 4.5rem;
-	}
-	.section-title {
-		font-size: 4.6em;
-		margin-bottom: .5em;
-	}
+    font-size: 4.7rem;
+    margin-bottom: 0.8em;
+  }
+  .sentence-page-title {
+    padding-top: 0.6em;
+    font-size: 4.5rem;
+  }
+  .section-title {
+    font-size: 4.6em;
+    margin-bottom: 0.5em;
+  }
 }
 /*------------------------------------------
 MEDIUM BREAKING POINT (800px)
 ------------------------------------------ */
 @media (min-width: $bp-medium) {
-	.article-teaser h3, .article-full h3 {
-		font-size: 2.7rem;
-	}
-	.quote {
-		padding: 0 .5em;
-		font-size: 2.5rem;
-	}
-	.quote__attrib {
-		margin-top: 1em;
-	}
-	.page-title--work-page {
-		font-size: 5.5rem;
-	}
-	.page-title--work-page span {
-		font-size: 8rem;
-	}
-	.page-title--article-full {
+  .article-teaser h3,
+  .article-full h3 {
+    font-size: 2.7rem;
+  }
+  .quote {
+    padding: 0 0.5em;
+    font-size: 2.5rem;
+  }
+  .quote__attrib {
+    margin-top: 1em;
+  }
+  .page-title--work-page {
+    font-size: 5.5rem;
+  }
+  .page-title--work-page span {
     font-size: 8rem;
-    margin-bottom: .15em;
+  }
+  .page-title--article-full {
+    font-size: 8rem;
+    margin-bottom: 0.15em;
   }
   .page-sub-heading--article-teaser {
-		margin-top: -1.6em;
-		font-size: 5.7rem;
-		margin-bottom: .4em;
-	}
-	.page-sub-heading--article-full {
+    margin-top: -1.6em;
+    font-size: 5.7rem;
+    margin-bottom: 0.4em;
+  }
+  .page-sub-heading--article-full {
     font-size: 5.3rem;
-    margin-bottom:1em;
+    margin-bottom: 1em;
   }
   .sentence-page-title {
-	  font-size: 5.5rem;
-	}
-	.section-title {
-		font-size: 5.3em;
-		margin-top: .2em;
-		margin-bottom: .4em;
-	}
-	.words--single {
-		margin-bottom: 2em
-	}
-	.pic {
-		margin-bottom: 1.8rem;
-	}
-	.pic__caption {
-		text-align: right;
-		margin-left: 5%;
-	  width: 90%;
-	}
+    font-size: 5.5rem;
+  }
+  .section-title {
+    font-size: 5.3em;
+    margin-top: 0.2em;
+    margin-bottom: 0.4em;
+  }
+  .words--single {
+    margin-bottom: 2em;
+  }
+  .pic {
+    margin-bottom: 1.8rem;
+  }
+  .pic__caption {
+    text-align: right;
+    margin-left: 5%;
+    width: 90%;
+  }
 }
 /*------------------------------------------
 MEDIUMLARGE (1000px)
 ------------------------------------------ */
 @media (min-width: $bp-medium-large) {
-	.page-title--work-page {
-		font-size: 6.5rem;
-	}
-	.page-title--work-page span {
-		font-size: 10rem;
-	}
-	.article-teaser h3, .article-full h3 {
-		font-size: 3rem;
-	}
-	.sentence-page-title {
-	  font-size: 6rem;
-	}
+  .page-title--work-page {
+    font-size: 6.5rem;
+  }
+  .page-title--work-page span {
+    font-size: 10rem;
+  }
+  .article-teaser h3,
+  .article-full h3 {
+    font-size: 3rem;
+  }
+  .sentence-page-title {
+    font-size: 6rem;
+  }
 }
 /*------------------------------------------
 LARGE BREAKING POINT (1200px)
 ------------------------------------------ */
 @media (min-width: $bp-large) {
-	.quote {
-	font-size: 2.7rem;
-	}
-	.page-sub-heading--article-teaser {
-		margin-top: -1.6em;
-		font-size: 6.5rem;
-		margin-bottom: .4em;
-	}
-	.words--single {
-		margin-bottom: 3em
-	}
-	.pic {
-		margin-bottom: 2rem;
-	}
-	.pic__caption {
-		text-align: right;
-		margin-left: 5%;
-	  width: 90%;
-	}
-	.page-title--article-full {
+  .quote {
+    font-size: 2.7rem;
+  }
+  .page-sub-heading--article-teaser {
+    margin-top: -1.6em;
+    font-size: 6.5rem;
+    margin-bottom: 0.4em;
+  }
+  .words--single {
+    margin-bottom: 3em;
+  }
+  .pic {
+    margin-bottom: 2rem;
+  }
+  .pic__caption {
+    text-align: right;
+    margin-left: 5%;
+    width: 90%;
+  }
+  .page-title--article-full {
     font-size: 9rem;
-    margin-bottom: .15em;
+    margin-bottom: 0.15em;
   }
   .page-sub-heading--article-full {
-	  font-size: 6rem;
-	  margin-bottom: 1.2em;
-	}  
-	.page-title--work-page {
-		font-size: 8rem;
-	}
-	.page-title--work-page span {
-		font-size: 12rem;
-	}
-	.sentence-page-title {
-	  font-size: 7rem;
-	}
-	.section-title {
-		font-size: 6em;
-	}
+    font-size: 6rem;
+    margin-bottom: 1.2em;
+  }
+  .page-title--work-page {
+    font-size: 8rem;
+  }
+  .page-title--work-page span {
+    font-size: 12rem;
+  }
+  .sentence-page-title {
+    font-size: 7rem;
+  }
+  .section-title {
+    font-size: 6em;
+  }
 }
-
-
-
-

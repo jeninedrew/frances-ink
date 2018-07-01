@@ -1,0 +1,117 @@
+<body class="case-study-single-page">
+  {{> header}}
+
+  <main id="content" role="main">
+    <section class="main-content-area">
+      <article class="article-full" role="article">
+        <p class="number number--article-full">2</p>
+        <h1 class="page-title page-title--article-full">Member &<br/> Event System</h1>
+        <h2 class="page-sub-heading page-sub-heading--article-full">Case Study</h2>
+        <section class="row">
+          <div class="article-intro">
+            <div class="medium-10 medium-offset-1 large-6 large-offset-0 columns words--single">
+              <p class="intro">
+								<a href="https://civicrm.org/">CiviCRM</a> is a flexible relationship management platform that powers a membership and event registration system  and integrates with <a href="https://www.drupal.org/">Drupal</a> and <a href="https://www.drupal.org/project/commerce">Drupal Commerce</a>.
+							</p>
+							<p>
+								Custom modules extend functionality. <a href="https://www.docker.com/">Docker</a> and <a href="https://docs.devwithlando.io/">Lando</a> support development with <a href="https://git-scm.com/">Git</a> version control.
+							</p>
+						</div>
+            <ul class="medium-8 medium-offset-2 large-6 large-offset-0 end columns article-intro__list">
+							<li>Strategy and Development</li>
+							<li>Drupal 7 and CiviCRM</li>
+							<li>Event Registration</li>
+							<li>Membership Management</li>
+							<li>HTML, CSS, JS, PHP, SQL, Git, Docker</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="row">
+					<h2 class="section-title">Technical Details</h2>
+					<div class="medium-10 medium-offset-1 large-12 large-offset-0 end columns words--double--article">
+						<h3>Open-Source CRM</h3>
+						<div class="large-6 end columns">
+							<p class="intro">
+								CiviCRM is an open-source customer relationship management system, primarily serving nonprofit and civic sector organizations. 
+							<p>
+								CiviCRM core includes membership features, making it a great relationship management choice for member supported sites. CiviCRM’s core team and active open-source community produce quality documentation, ongoing development and issue tracking. Beyond the core product, contributed extensions offer additional features. Maintainable customization is enabled through a comprehensive API, hooks and command line tools.
+							</p>
+						</div>
+						<div class="large-6 end columns">
+							<p>
+								For this project, a contributed discount module adds automatic and manual discount codes. Another contributed module provides integration with Drupal’s popular Webform module. The module exposes live CiviCRM form data within webforms, supporting a custom membership type registration and a self-managed membership form.
+							</p>
+							<p>
+								Customizing CiviCRM is efficient and maintainable. For this project, a custom extension adds logic to event templates, enabling staff to easily publish unique event types in a non-technical way. Another custom extension hooks into a CiviCRM profile, creating a restricted searchable membership directory based on member status with conditionally hidden fields.
+							</p>
+						</div>
+					</div>
+
+					<div class="medium-12 medium-offset-0 end columns screenshots">
+            <div class="medium-7 medium-offset-0 columns">
+             <img class="lazy no-js" data-original="/assets/img/member-and-event/member-type.png" alt="create membership type">
+             <noscript><img src="/assets/img/member-and-event/member-type.png" alt="create membership type"></noscript>
+            </div>
+            <div class="medium-5 end columns">
+             <img class="lazy no-js" data-original="/assets/img/member-and-event/search.png" alt="search criteria">
+             <noscript><img src="/assets/img/member-and-event/search.png" alt="search criteria"></noscript>
+            </div>
+            <div class="medium-6 medium-offset-3 end columns screenshots">
+              <img class="lazy no-js" data-original="/assets/img/member-and-event/register.png" alt="new event registration">
+              <noscript><img src="/assets/img/member-and-event/register.png" alt="new event registration"></noscript>
+            </div>
+          </div>
+
+					<div class="medium-10 medium-offset-1 large-12 large-offset-0 end columns words--double--article ">
+						<div class="large-6 end columns member-and-event-dev-section">
+							<h3>Local Environment</h3>
+							<p class="intro">
+								Development is supported by <a href="https://www.docker.com/">Docker</a>, a container platform that enables better collaboration and optimization.
+							</p>
+							<p>
+								<a href="https://docs.devwithlando.io/">Lando</a> is built on Docker and further simplifies local development. Some of the many advantages to these tools include a development environment that mimics production, configuration stored in the repository, and quickly spinning up services and tools for faster development. Version control is managed with <a href="https://git-scm.com/">Git</a>. 
+							</p>
+						</div>
+						<div class="small-10 small-offset-1 medium-8 medium-offset-2 large-6 large-offset-0 end columns screenshots">
+              <img class="lazy no-js" data-original="/assets/img/member-and-event/term.png" alt="Lando information">
+              <noscript><img src="/assets/img/member-and-event/term.png" alt="Lando information"></noscript>
+              <p class="pic__caption"><a href="https://docs.devwithlando.io/">Lando</a> information</p>
+	          </div>
+					</div>
+				</section>
+
+				<section class="row">
+					<h2 class="section-title">Design Highlights</h2>
+					<div class="medium-10 medium-offset-1 large-12 large-offset-0 end columns words--double--article">
+						<h3>Data Mapping</h3>
+						<div class="large-6 end columns">
+							<p class="intro">
+								Data mapping in the discovery phase ensures historical data and the existing Drupal membership system are imported into CiviCRM in a way that serves the organization going forward. 
+							<p>
+								For this project, responsible data mapping required a multi step approach. First, the organization’s needs determined the optimal way to organize CiviCRM. Member types, relationship types, classifications, profiles and custom fields were determined based on existing data and future needs. Next, recent data and historical member information were compared, inconsistencies reconciled and known database errors fixed. Finally, accurate data was migrated to the new system based on data mapping decisions.
+							</p>
+							<h3>Drupal Design</h3>
+							<p class="intro">
+								Drupal roles are synced with CiviCRM based on status rules, allowing the membership system to integrate seamlessly with the front end and Drupal’s account features. 
+							<p>
+								Updating the membership system replaced much of the existing site’s functionality. Leveraging CiviCRM’s deep integration makes the site easier for staff to manage and presents users with a more consistent experience. Beyond CiviCRM, inherited projects include a member  controlled event calendar requiring extensive updates. User and staff impact drive prioritization and thorough testing ensures a smooth transition to the new membership and event system.
+							</p>
+						</div>
+						<div class="medium-10 medium-offset-1 large-5 large-offset-1 end columns screenshots">
+	           <img class="lazy no-js" data-original="/assets/img/member-and-event/form.png" alt="CiviCRM form">
+	           <noscript><img src="/assets/img/member-and-event/form.png" alt="CiviCRM form"></noscript>
+		        </div>
+					</div>
+				</section>
+
+        <section class="row">
+          <a class="read-more__link" href="/portfolio/the-good-supply.html">
+            <button id="animate-button--capr-page" class="large-12 columns read-more__button read-more--article-full">Next Case Study</button>
+          </a>
+        </section>
+      </article>
+    </section><!-- main-content-area -->
+  </main>
+
+	{{> footer}}
